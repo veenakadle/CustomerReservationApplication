@@ -1,0 +1,80 @@
+        Dim CustomerBoolean, EmployeeBoolean As Boolean
+
+        If ForgotPasswordform.TempPasswordString <> String.Empty Then
+            If PasswordTextBox.Text <> ForgotPasswordform.TempPasswordString Then
+                MessageBox.Show("Temporary password incorrect.")
+                Exit Sub
+            Else
+                ResetPasswordForm.Show()
+                Me.Hide()
+            End If
+        Else
+
+            If EmailIDTextBox.Text = String.Empty Then
+                MessageBox.Show("Email ID cannot be empty")
+            ElseIf PasswordTextBox.Text = String.Empty Then
+                MessageBox.Show("Password cannot be empty")
+            Else
+                'Encrypt Password and check if it exists
+                Dim PasswordString As String = EncryptData(PasswordTextBox.Text)
+
+                DB.AddParam("@primaryEmailID", EmailIDTextBox.Text)
+                DB.AddParam("@password", PasswordString)
+                DB.ExecuteQuery("SELECT * FROM customer WHERE primaryEmailID=? AND custPassword=?")
+                If DB.ExceptionString <> String.Empty Then
+                    MessageBox.Show(DB.ExceptionString)
+                    Exit Sub
+                End If
+
+                If DB.RecordCountInteger > 0 Then
+                    CustomerBoolean = True
+
+                    DB.AddParam("@EmailID", EmailIDTextBox.Text)
+                    DB.AddParam("@password", PasswordTextBox.Text)
+
+                    DB.ExecuteQuery("SELECT * FROM employee WHERE email=? AND empPassword=?")
+                    If DB.ExceptionString <> String.Empty Then
+                        MessageBox.Show(DB.ExceptionString)
+                        Exit Sub
+                    End If
+
+                    If DB.RecordCountInteger = 0 Then
+                        MessageBox.Show("Email ID/Password combination do not exist")
+                        EmployeeBoolean = False
+                        Exit Sub
+                    Else
+                        EmployeeBoolean = True
+                        EmployeeIDInteger = DB.DBDataTable.Rows(0)("employeeID")
+                        EmployeeFirstNameString = DB.DBDataTable.Rows(0)("firstName")
+                        EmployeeLastNameString = DB.DBDataTable.Rows(0)("lastName")
+
+                        'Clear Email ID and password boxes and disable the Login button
+                        EmailIDTextBox.Clear()
+                        PasswordTextBox.Clear()
+
+                        'Call the Employee form
+                        EmployeeMainForm.Show()
+                        Me.Hide()
+                    End If
+
+                Else
+
+                    'To use for reservations & orders
+                    CustomerIDInteger = DB.DBDataTable.Rows(0).Item(0)
+                    CustomerFirstNameString = DB.DBDataTable.Rows(0).Item(2)
+                    CustomerLastNameString = DB.DBDataTable.Rows(0).Item(3)
+
+                    CustomerEmailIDString = EmailIDTextBox.Text
+
+                    'Message
+                    MessageBox.Show("Welcome, " & CustomerFirstNameString & " !")
+
+                    'Clear Email ID and password boxes and disable the Login button
+                    EmailIDTextBox.Clear()
+                    PasswordTextBox.Clear()
+
+                    'Call the Customer form
+                    CustomerLogin.Show()
+                    Me.Hide()
+                End If
+            End If

@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A930482A-BAFB-4688-BE70-F1C0B579B834}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SakuraResturant.My.MyApplication</StartupObject>
+    <RootNamespace>SakuraResturant</RootNamespace>
+    <AssemblyName>SakuraResturant</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SakuraResturant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SakuraResturant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddSectionForm.Designer.vb">
+      <DependentUpon>AddSectionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddSectionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUpdateCustomerForm.Designer.vb">
+      <DependentUpon>AddUpdateCustomerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddUpdateCustomerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUpdateSectionForm.Designer.vb">
+      <DependentUpon>AddUpdateSectionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddUpdateSectionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeReservationForm.Designer.vb">
+      <DependentUpon>ChangeReservationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeReservationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMaintenanceForm.Designer.vb">
+      <DependentUpon>CustomerMaintenanceForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerMaintenanceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiscountsForm.Designer.vb">
+      <DependentUpon>DiscountsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DiscountsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeMainForm.Designer.vb">
+      <DependentUpon>EmployeeMainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeMainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeMaintenanceForm.Designer.vb">
+      <DependentUpon>EmployeeMaintenanceForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeMaintenanceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndividualReservationForm.Designer.vb">
+      <DependentUpon>IndividualReservationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IndividualReservationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddToCartForm.designer.vb">
+      <DependentUpon>AddToCartForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddToCartForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerLogin.Designer.vb">
+      <DependentUpon>CustomerLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPasswordform.Designer.vb">
+      <DependentUpon>ForgotPasswordform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPasswordform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginChoiceForm.Designer.vb">
+      <DependentUpon>LoginChoiceForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginChoiceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForm.designer.vb">
+      <DependentUpon>MenuForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuMaintenanceForm.Designer.vb">
+      <DependentUpon>MenuMaintenanceForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuMaintenanceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NewReservation.Designer.vb">
+      <DependentUpon>NewReservation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewReservation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservationMaintenanceForm.Designer.vb">
+      <DependentUpon>ReservationMaintenanceForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReservationMaintenanceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetPasswordForm.Designer.vb">
+      <DependentUpon>ResetPasswordForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPasswordForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SakuraClass.vb" />
+    <Compile Include="ScheduleListForm.Designer.vb">
+      <DependentUpon>ScheduleListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SectionsForm.Designer.vb">
+      <DependentUpon>SectionsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SectionsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateDeleteMenuItemsForm.Designer.vb">
+      <DependentUpon>UpdateDeleteMenuItemsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateDeleteMenuItemsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUpdateEmployeeForm.Designer.vb">
+      <DependentUpon>AddUpdateEmployeeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddUpdateEmployeeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSectionForm.Designer.vb">
+      <DependentUpon>UpdateSectionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSectionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddSectionForm.resx">
+      <DependentUpon>AddSectionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUpdateCustomerForm.resx">
+      <DependentUpon>AddUpdateCustomerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUpdateSectionForm.resx">
+      <DependentUpon>AddUpdateSectionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeReservationForm.resx">
+      <DependentUpon>ChangeReservationForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerMaintenanceForm.resx">
+      <DependentUpon>CustomerMaintenanceForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscountsForm.resx">
+      <DependentUpon>DiscountsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeMainForm.resx">
+      <DependentUpon>EmployeeMainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeMaintenanceForm.resx">
+      <DependentUpon>EmployeeMaintenanceForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndividualReservationForm.resx">
+      <DependentUpon>IndividualReservationForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddToCartForm.resx">
+      <DependentUpon>AddToCartForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerLogin.resx">
+      <DependentUpon>CustomerLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPasswordform.resx">
+      <DependentUpon>ForgotPasswordform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginChoiceForm.resx">
+      <DependentUpon>LoginChoiceForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuMaintenanceForm.resx">
+      <DependentUpon>MenuMaintenanceForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewReservation.resx">
+      <DependentUpon>NewReservation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservationMaintenanceForm.resx">
+      <DependentUpon>ReservationMaintenanceForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetPasswordForm.resx">
+      <DependentUpon>ResetPasswordForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScheduleListForm.resx">
+      <DependentUpon>ScheduleListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SectionsForm.resx">
+      <DependentUpon>SectionsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateDeleteMenuItemsForm.resx">
+      <DependentUpon>UpdateDeleteMenuItemsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUpdateEmployeeForm.resx">
+      <DependentUpon>AddUpdateEmployeeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSectionForm.resx">
+      <DependentUpon>UpdateSectionForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sakura_Image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sakura_logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sakura_logo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sakura-food-photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CustomerLogin_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CustomerLogin_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\common dinning area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\front desk and bar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Front view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hibachi area 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hibachi area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sushi area.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sushi plat 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sushi plate 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sushi plate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sushi plate1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Major-Credit-Card-Logo-PNG-File.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

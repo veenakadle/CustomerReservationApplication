@@ -1,0 +1,93 @@
+U:\635\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.exe.config
+U:\635\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.exe
+U:\635\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.pdb
+U:\635\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.xml
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.vbprojResolveAssemblyReference.cache
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.CustomerLogin.resources
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.login.resources
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.Resources.resources
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.NewCustomerForm.resources
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.vbproj.GenerateResource.Cache
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.exe
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.xml
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.pdb
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.ForgotPasswordform.resources
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.customermain.resources
+U:\635\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.NewReservation.resources
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.exe.config
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.exe
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.xml
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.pdb
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.exe
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.pdb
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.xml
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.vbprojResolveAssemblyReference.cache
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.AddToCartForm.resources
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.CustomerLogin.resources
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.customermain.resources
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.ForgotPasswordform.resources
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.login.resources
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.MenuForm.resources
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.Resources.resources
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.NewCustomerForm.resources
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.NewReservation.resources
+U:\Documents\BIS 635\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.vbproj.GenerateResource.Cache
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.exe.config
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.exe
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.xml
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.pdb
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.exe
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.pdb
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.xml
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.vbprojResolveAssemblyReference.cache
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.AddToCartForm.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.CustomerLogin.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.customermain.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.ForgotPasswordform.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.Login.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.MenuForm.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.Resources.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.NewCustomerForm.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.NewReservation.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.vbproj.GenerateResource.Cache
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.BusinessReportForm.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.EmployeeForm.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.EmployeeLogin.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.ManagementReportForm.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.NewStaffForm.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.SakilaStaffForm.resources
+D:\IMPORTANT\CMU Courses\3rd Semester\BIS 635\Final Project\Final Project\CustomerReservation\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.ScheduleForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.exe.config
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.exe
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.xml
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.pdb
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.exe
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.pdb
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\bin\Debug\SakuraResturant.xml
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.vbprojResolveAssemblyReference.cache
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.AddToCartForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.CustomerLogin.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.ForgotPasswordform.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.Login.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.MenuForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.Resources.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.NewReservation.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.vbproj.GenerateResource.Cache
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.SectionsForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.ChangeReservationForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.IndividualReservationForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.EmployeeMainForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.ResetPasswordForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.MenuMaintenanceForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.UpdateDeleteMenuItemsForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.AddUpdateSectionForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.AddSectionForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.DiscountsForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.UpdateSectionForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.ScheduleListForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.CustomerMaintenanceForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.EmployeeMaintenanceForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.ReservationMaintenanceForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.AddUpdateEmployeeForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.LoginChoiceForm.resources
+U:\Documents\BIS 635\SakuraResturant\SakuraResturant\SakuraResturant\obj\Debug\SakuraResturant.AddUpdateCustomerForm.resources
